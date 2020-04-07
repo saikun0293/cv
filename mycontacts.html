@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Contacts</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        hr{
+            border:solid 1px;
+            width:100%;
+        }
+        form{
+            border: solid 2px;
+        }
+    </style>
 </head>
 <body>
     <ul>
@@ -13,27 +23,40 @@
     <p>Thank you!</p>
 
     <h3>Form filling</h3>
-    <form action="mailto:saitejareddytileti@gmail.com" method="POST" enctype="text/plain">
+    <form action="index.html" method="POST" enctype="text/plain">
         <label for="name">Enter your name: </label>
         <input type="text" name="yourName"><br>
+        <hr>
         <label for="gender">Please select your gender :</label><br>
         <input type="radio" name="yourGender"><label for="">male</label><br>
         <input type="radio" name="yourGender"><label for="">female</label><br>
+        <hr>
         <label for="email">Enter your email address</label>
         <input type="email" name="yourEmail"><br>
+        <hr>
         <label for="file">Please select the file you want to upload..</label>
         <input type="file" name="fileChosen"><br>
+        <hr>
         <label for="color">Color preference?</label>
         <input type="color" name="preferedColor"><br>
+        <hr>
         <label for="DOB">Please enter your date of birth</label>
         <input type="date" name="dateOfBirth"><br>
+        <hr>
         <label for="password">Enter your email password: </label>
         <input type="password" name="Password"><br>
+        <hr>
         <label for="agreement">Do you agree to the terms and conditions?</label>
         <input type="checkbox" name="Agreementacepted"><br>
+        <hr>
+        <label for="message">Enter your message</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <hr>
         <label for="submit">Please click the submit button below to submit the form</label><br>
         <input type="submit"><br>
-        <label for="message"></label>
+        <hr>
     </form>
+
+
 </body>
 </html>

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: #00adb5;;
+    color:black;
+    font-family:"lobster";
+    }
+hr{
+    border-style:none;
+    border-top: dotted;
+    height:0px;
+    width:10%;
+    border-width: 10px;
+    border-color: 393e46;
+}
+h1,h3{
+    color:#222831;
+    background-color:#eeeeee;
+    width:60%;
+    padding:0.5em;
+    border-radius:0.5em;
+    border: solid black;
+}
+
+
+
+.certificate{
+    text-align:left;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    border-radius: 0.5em;
+    border: solid black;
+    background: yellowgreen;
+    padding:5px 10px;
+}
+
+
+.skills{
+    border: solid black 2px;
+    border-radius: 0.5em;
+    font-family: 'Rock Salt', cursive;
+    font-size:20px;
+    background: wheat;
+}
