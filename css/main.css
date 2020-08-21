@@ -21,6 +21,9 @@ h1,h3{
     border: solid black;
 }
 
+img{
+border-radius:50%;
+}
 
 
 .certificate{
